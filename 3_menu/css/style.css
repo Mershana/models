@@ -1,0 +1,31 @@
+
+/*разместим наши ссылки в ряд: */
+#menu{
+	display: flex;
+	border: 1px solid #16A177;
+	width: 700px;
+	background-color: #16A177;
+}
+
+/* стили наших ссылок */
+#menu a{
+	padding: 15px 40px;
+	font: 16px Arial;
+   text-decoration: none;
+   color: white;
+	background-color: #16A177;
+}
+
+
+/* реакция ссылок на наведение: */
+#menu a:hover{
+	color: white;
+	/* border:1px solid #16A177; */
+	background-color: #fff;
+}
+
+/* объединим эти стили вместе(реация ссылок на наведение) */
+#menu a:hover, #menu a.active{
+	background-color: #16785C;
+}
+
