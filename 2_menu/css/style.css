@@ -1,0 +1,31 @@
+
+ #menu{
+	/* разместим наши ссылки в ряд: */
+	display: flex;	
+
+	/* Направление, в котором блоки будут располагаться вертикально */
+	 flex-direction: column;
+	width: 300px;
+}
+	
+
+
+/*  стили наших ссылок: */
+
+ #menu a {
+	margin-bottom: 10px;
+	padding: 15px 25px;
+	font: 16px arial;
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid #16A177;
+	background-color: #16A177;} 
+
+
+
+/* реакция ссылок на наведение */
+ #menu a:hover, #menu a.active{
+	color: #16A177;
+	border: 1px solid #16A177;
+	background-color: #fff;
+} 
